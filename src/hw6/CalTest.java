@@ -1,5 +1,6 @@
 package hw6;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CalTest {
@@ -18,9 +19,9 @@ public class CalTest {
 				inputValid = true;
 			}catch(CalException ca) {
 				System.out.println(ca.getMessage());
-			}catch(Exception e) {
+			}catch(InputMismatchException e) {
 				System.out.println("輸入格式不正確");
-				s.nextLine();  //清空s.nextInt()所被輸入不符格式的值
+				s.next();  //清空s.nextInt()所被輸入不符格式的值
 			}
        }
 	}
