@@ -16,11 +16,11 @@ public class Hw4_6 {
 		int[] t = new int[8];
 
 		for(int n = 0; n < ex.length; n++) {
-			int max2 = ex[n][0];
+			int max = ex[n][0];
 			int index = 0;
 			for(int i = 0; i < ex[n].length; i++) {
-				if(ex[n][i] > max2) {
-					max2 = ex[n][i];
+				if(ex[n][i] > max) {
+					max = ex[n][i];
 					index = i;
 				}
 			}

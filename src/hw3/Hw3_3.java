@@ -37,11 +37,14 @@ public class Hw3_3 {
 		System.out.println("共有" + sum + "個數字可選");
 		
 		// 建立一個空的 List<Integer>
-        List<Integer> list = new ArrayList<>();
+        List list = new ArrayList();
         
         // 使用 forEach 迴圈將 int 陣列轉換為 Integer物件 並加入 List(list內部元素須為物件)
-        for (int num : lot) {
-            list.add(num);
+//        for (int num : lot) {
+//            list.add(num);
+//        }
+        for(int n = 0; n < lot.length; n++) {
+        	list.add(lot[n]);
         }
         
         // 隨機打亂list
@@ -49,7 +52,7 @@ public class Hw3_3 {
         
         // 選擇前n個元素
         int n = 6;
-        List<Integer> result = list.subList(0, n);
+        List result = list.subList(0, n);
         
         System.out.println("隨機取出六個數字: " + result);
 	}
