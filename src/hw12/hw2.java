@@ -2,7 +2,7 @@ package hw12;
 
 public class hw2 {
 	public static void main(String[] args) {
-			
+
 		//1. 計算1~1000的偶數和 (2+4+6+8+...+1000)
 		int sum1=0;
 		for(int x=2;x<=1000;x+=2) {
