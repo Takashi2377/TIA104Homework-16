@@ -9,7 +9,7 @@ public class Hw7_4Output {
 		animals[0] = new Dog("Husky");
 		animals[1] = new Dog("ShibaInu");
 		animals[2] = new Cat("Neko");
-		animals[3]= new Cat("Kitty");
+		animals[3] = new Cat("Kitty");
 		
 		File dir = new File("c:/data");
 		dir.mkdir();
