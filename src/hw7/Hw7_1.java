@@ -22,9 +22,9 @@ public class Hw7_1 {
 			ln++;
 		}
 		
-		System.out.println("Sample.txt檔案共有" + length + 
-						   "個位元組, " + ch + 
-						   "個字元, " + ln + "列資料");
+		System.out.println("Sample.txt檔案共有" + length + "個位元組, " + 
+											    ch + "個字元, " + 
+											    ln + "列資料");
 		
 		br.close();
 		fr.close();
