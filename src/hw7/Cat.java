@@ -1,8 +1,6 @@
 package hw7;
 
-import java.io.Serializable;
-
-public class Cat  extends Animal implements Serializable{
+public class Cat  implements Animal{
 	private static final long serialVersionUID = 1L;
 	private String name;
 	
